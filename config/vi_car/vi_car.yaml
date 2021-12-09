@@ -5,9 +5,9 @@
 imu: 1         
 num_of_cam: 2  
 
-imu_topic: "/imu0"
-image0_topic: "/cam0/image_raw"
-image1_topic: "/cam1/image_raw"
+imu_topic: "/carlr/ego_vehicle/imu"
+image0_topic: "/carlr/ego_vehicle/cam1/image"
+image1_topic: "/carlr/ego_vehicle/cam2/image"
 output_path: "/home/tong/output/"
 
 cam0_calib: "cam0_mei.yaml"
